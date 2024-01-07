@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <div class="main animate__animated animate__flipInX">
+        <h1>Age Calculator</h1>
+        <p>Enter Your Date Of Birth</p>
+        <!-- <button>hello</button> -->
+        <input type="date" id="birthdate" name="birthdate" required>
+
+        <input type="button" id="btn" onclick="calculateAge()" value="Calculate Age">
+        <br>
+        <div id="result"></div>
+    </div>
+</body>
+<script src="query.js"></script>
+
+</html>

@@ -1,0 +1,59 @@
+.main{
+    width: 645px;
+    height: 330px;
+    background-color: white;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    margin:  12% auto;
+    border-radius: 10px;
+    /* background-color: rgb(237, 200, 245); */
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+    
+
+}
+body{
+    background-color: #00008B;
+    /* background-image: url("https://wallpaperaccess.com/full/3239444.jpg"); */
+}
+.main h1,p{
+    text-align: center;
+}
+h1{
+    font-size: 36px;
+    color: #007bff;
+}
+p{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#birthdate{
+    /* border-radius: 2px; */
+}
+.main input{
+    height: 35px;
+    width: 312px;
+  margin: 10px auto;
+  
+}
+.main #btn{
+    width: 125px;
+    height: 35px;
+    background-color: #007bff;
+    color: white;
+    margin:10px auto;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#result{
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+    color: blueviolet;
+    font-weight: bold;
+}
