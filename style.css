@@ -7,6 +7,7 @@
     flex-direction: column;
     margin:  12% auto;
     border-radius: 10px;
+    flex-wrap: wrap;
     /* background-color: rgb(237, 200, 245); */
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
@@ -37,7 +38,15 @@ p{
     height: 35px;
     width: 312px;
   margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* text-align: center; */
   
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main #btn{
     width: 125px;
@@ -56,4 +65,22 @@ p{
     font-family: cursive;
     color: blueviolet;
     font-weight: bold;
+}
+
+
+@media screen and (max-width:420px) {
+    .main{
+width:280px ;
+margin: 33% auto;
+
+    }
+    #birthdate{
+        width: 250px;
+    }
+    #btn{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
